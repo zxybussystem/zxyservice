@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | ZXY Service</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+  @layer utilities {
+    .bg-zxy-gradient {
+      background: linear-gradient(135deg, #991b1b 0%, #dc2626 100%);
+    }
+    .text-zxy-gold {
+      color: #fbbf24; /* Gold accent matching your logo's center */
+    }
+  }
+</style>
+<meta name="description" content="Zheng Xing Yun (ZXY) Service: Singapore's trusted transport partner for 25 years. Providing safe, punctual school bus services and corporate shuttles. Based in Defu Lane.">
+</head>
+
+  
+<body class="bg-slate-50 text-gray-900">
+  <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="hover:text-red-600 transition"><img src="img/logo-transparent.png" alt="ZXY Logo" class="h-12" /></a>
+      <div class="flex flex-col">
+        <span class="text-xl font-bold tracking-tight text-red-700 leading-none">ZXY SERVICE</span>
+        <span class="text-[10px] uppercase tracking-widest text-gray-500 font-semibold">Zheng Xing Yun</span>
+      </div>
+    </div>
+    
+    <div class="hidden md:flex items-center gap-8 text-sm font-semibold text-gray-600">
+      <a href="about.html" class="hover:text-red-600 transition">About</a>
+      <a href="services.html" class="hover:text-red-600 transition">Services</a>
+      <a href="fleet.html" class="hover:text-red-600 transition">Fleet</a>
+      <a href="contact.html" class="bg-red-700 text-white px-5 py-2.5 rounded-lg hover:bg-red-800 transition shadow-md shadow-red-100">Contact Us</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bg-red-900 py-16 text-white text-center">
+  <h1 class="text-4xl font-black">Get In Touch</h1>
+  <p class="mt-4 text-red-200">Ready to book your next journey? We're here to help.</p>
+</header>
+
+<section class="max-w-7xl mx-auto px-6 py-16">
+  <div class="grid lg:grid-cols-3 gap-12">
+    
+    <div class="lg:col-span-1 space-y-8">
+      <div>
+        <h3 class="text-xl font-bold text-red-900 mb-4">Our Office</h3>
+        <p class="text-gray-600">
+          2 Defu Lane 10 #04-527<br>
+          Singapore 539183
+        </p>
+      </div>
+      
+      <div>
+        <h3 class="text-xl font-bold text-red-900 mb-4">Direct Lines</h3>
+        <div class="space-y-2 text-gray-600">
+          <p><strong>Phone:</strong> +65 6287 1163</p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/6597508316" class="text-red-600 hover:underline">+65 9750 8316</a></p>
+          <p><strong>Email:</strong> <a href="mailto:zhengxingyunservice@gmail.com" class="text-red-600 hover:underline">zhengxingyunservice@gmail.com</a></p>
+        </div>
+      </div>
+
+      <a href="https://wa.me/6597508316" class="flex items-center justify-center gap-2 bg-green-600 text-white p-4 rounded-xl font-bold hover:bg-green-700 transition">
+        <span>💬</span> Chat on WhatsApp
+      </a>
+    </div>
+
+    <div class="lg:col-span-2 bg-white p-8 rounded-3xl shadow-sm border border-slate-200">
+      <form action="https://api.web3forms.com/submit" method="POST" class="grid md:grid-cols-2 gap-6">
+        <input type="hidden" name="access_key" value="249379df-4f78-4d11-ae76-b671c8dc6d9b">
+  
+        <input type="hidden" name="redirect" value="https://zxybussystem.github.io/zxy-service/thank-you.html">
+
+        <div class="md:col-span-1">
+        <label class="block text-sm font-bold text-gray-700 mb-2">Full Name</label>
+         <input type="text" name="name" required placeholder="Your name" class="w-full p-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-red-600 focus:outline-none">
+          </div>
+
+          <div class="md:col-span-1">
+          <label class="block text-sm font-bold text-gray-700 mb-2">Contact Number</label>
+          <input type="tel" name="phone" required placeholder="+65" class="w-full p-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-red-600 focus:outline-none">
+          </div>
+
+          <div class="md:col-span-2">
+            <label class="block text-sm font-bold text-gray-700 mb-2">Enquiy Type</label>
+            <select name="service" class="w-full p-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-red-600 focus:outline-none">
+              <option>School Bus Service</option>
+              <option>Corporate Shuttle</option>
+              <option>Event/Community Charter</option>
+              <option>Career as Bus Captain / Attendant</option>
+              <option>Other Enquiry</option>
+            </select>
+          </div>
+
+        <div class="md:col-span-2">
+        <label class="block text-sm font-bold text-gray-700 mb-2">Details of Enquiry</label>
+        <textarea name="message" rows="4" placeholder="1. Date and time of trip required. 2. How many passengers? 3. What is the pickup location and destination?" class="w-full p-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-red-600 focus:outline-none"></textarea>
+        </div>
+
+        <div class="md:col-span-2">
+        <button type="submit" class="w-full bg-red-800 text-white py-4 rounded-xl font-bold text-lg hover:bg-red-900 transition">
+      Send Inquiry
+    </button>
+  </div>
+</form>
+    </div>
+
+  </div>
+</section>
+
+<footer class="bg-slate-900 text-slate-300 py-16">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-sm">
+    <div class="space-y-4">
+      <img src="img/logo-transparent.png" class="h-12 brightness-0 invert" />
+      <p class="leading-relaxed">Zheng Xing Yun Service provides premium transport solutions across the island, specializing in school bus operations and corporate staff shuttles.</p>
+      <p class="pt-4 text-slate-500 font-medium">© 2025 ZXY Service. All rights reserved.</p>
+    </div>
+    
+    <div>
+      <h5 class="text-white font-bold mb-6 text-base">Quick Access</h5>
+      <ul class="space-y-4">
+        <li><a href="about.html" class="hover:text-red-400 transition flex items-center gap-2"><span>→</span> About Us</a></li>
+        <li><a href="services.html" class="hover:text-red-400 transition flex items-center gap-2"><span>→</span> Our Services</a></li>
+        <li><a href="fleet.html" class="hover:text-red-400 transition flex items-center gap-2"><span>→</span> Bus Fleet</a></li>
+        <li><a href="contact.html" class="hover:text-red-400 transition flex items-center gap-2"><span>→</span> Book a Bus</a></li>
+      </ul>
+    </div>
+    
+    <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
+      <h5 class="text-white font-bold mb-4 text-base">Contact HQ</h5>
+      <div class="space-y-3">
+        <p class="flex items-center gap-3">
+            <span class="text-red-400">✉</span>
+            <a href="mailto:zhengxingyunservice@gmail.com" class="hover:text-white">zhengxingyunservice@gmail.com</a>
+        </p>
+        <p class="flex items-center gap-3">
+            <span class="text-red-400">📞</span>
+            <span>+65 6287 1163</span>
+        </p>
+        <p class="flex items-center gap-3">
+            <span class="text-red-400">📍</span>
+            <span>2 Defu Lane 10 #04-527, Singapore 539183</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
+
+
+
+
+
