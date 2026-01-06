@@ -1,0 +1,6 @@
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Point to your sitemap to help with indexing
+Sitemap: https://www.zhengxingyun.com.sg/sitemap.xml
